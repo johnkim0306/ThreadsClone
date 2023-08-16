@@ -17,8 +17,8 @@ import {
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 
-// import { ThreadValidation } from "@/lib/validations/thread";
-// import { createThread } from "@/lib/actions/thread.actions";
+import { ThreadValidation } from "@/lib/validations/thread";
+import { createThread } from "@/lib/actions/thread.actions";
 
 interface Props {
   userId: string;
